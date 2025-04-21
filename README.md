@@ -33,7 +33,7 @@ To clean and preprocess a raw dataset by handling missing values, duplicates, in
 
 ## 📂 Files Included
 
-- `netflix_data.csv` — Raw dataset  
+- `netflix_titles.csv` — Raw dataset  
 - `cleaned_netflix_data.csv` — Final cleaned dataset  
 - `netflix_cleaning_script.py` — Python script used for preprocessing  
 - `README.md` — This documentation file  
@@ -44,7 +44,6 @@ To clean and preprocess a raw dataset by handling missing values, duplicates, in
 - Handling missing values with `.isnull()`, `.fillna()`, `.dropna()`  
 - Removing duplicates with `.drop_duplicates()`  
 - Date formatting using `pd.to_datetime()`  
-- Encoding fixes for text data  
 - Feature engineering (`duration_parsed` column)  
 - Data type and format standardization  
 
@@ -55,6 +54,3 @@ To clean and preprocess a raw dataset by handling missing values, duplicates, in
 |---------|---------|-------|----------|------------|-----|------------|--------------|------------|-----------------|
 | s1      | TV Show | 3%    | Unknown  | Joao M...  | ... | 14-08-2020 | 2020         | 4 Seasons  | 4               |
 
-
-## 📎 Submission
-Submit the GitHub link for this repo at: [Submission Form](https://forms.gle/o2uMAByM719GzebC7)
